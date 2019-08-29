@@ -1,1 +1,5 @@
-print("Hello World")
+checklist = list()
+checklist.append("Blue")
+print(checklist)
+checklist.append("Orange")
+print(checklist)
