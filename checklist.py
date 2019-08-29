@@ -6,7 +6,10 @@ def create(item):
 
 #READ
 def read(index):
-    return checklist[index]
+    if index < len(checklist):
+        return checklist[index]
+    else:
+        return("Index " + str(index) + " is invalid!")
 
 #UPDATE
 def update(index, item):
